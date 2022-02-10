@@ -26,7 +26,7 @@ export default function Home() {
                 Fetch Records
             </button>
 
-            <ul>
+            <ul className="name_list">
                 {items.map((item) => (
                     <li key={item.id}>
                         <input type="checkbox" checked={item.name.includes('u') ? true : false} />
