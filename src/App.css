@@ -47,8 +47,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .main-contain {
   padding: 1rem;
+}
+
+.name_list {
+  list-style-type: none;
 }
 
 .loader {
